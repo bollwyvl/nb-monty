@@ -1,0 +1,24 @@
+{
+  "name": "nb-monty",
+  "version": "0.0.0",
+  "authors": [
+    "Nicholas Bollweg <nick.bollweg@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "nb-monty/static/nb-monty/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.2",
+    "jsonld.js": "~0.3.17"
+  }
+}

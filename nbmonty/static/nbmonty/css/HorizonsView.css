@@ -1,0 +1,19 @@
+.HorizonsView *{
+  font-family: "Gill Sans MT", "Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+.HorizonsView rect{
+  fill: white;
+  stroke: black;
+}
+
+.HorizonsView .chart-title{
+  font-size: 32px;
+}
+
+.HorizonsView .axis path,
+.HorizonsView .axis line{
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
