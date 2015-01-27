@@ -75,7 +75,7 @@ class InstallerMixin(object):
 
         if install_assets or not check_nbextension([nbextension]):
             # copy the static files to a namespaced location in `nbextensions`
-            install_nbextension(static)
+            install_nbextension(static, user=True)
 
         # magically-named files css/SomeWidgetView.css
         magic_style = os.path.join(static, 'css', '%s.css' % self._view_name)
