@@ -1,0 +1,4 @@
+include README.md
+include .bowerrc
+include bower.json
+recursive-include nbmonty/static *
