@@ -24,7 +24,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'IPython',
-        'rdflib',
+        'RDFLib',
         'rdflib-jsonld',
         'pyld'
     ],
