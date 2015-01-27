@@ -25,6 +25,7 @@ setup(
     install_requires=[
         'IPython',
         'rdflib',
+        'rdflib-jsonld',
         'pyld'
     ],
     classifiers = [
