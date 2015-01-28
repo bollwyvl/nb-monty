@@ -9,14 +9,6 @@
   ],
   "license": "MIT",
   "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "nb-monty/static/nb-monty/lib",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "d3": "~3.5.2",
     "jsonld.js": "~0.3.17"

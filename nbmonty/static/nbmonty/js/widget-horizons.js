@@ -3,8 +3,8 @@
 
   requirejs.config({
     paths: {
-      d3: "/nbextensions/nbmonty/lib/d3/d3.min",
-      jsonld: "/nbextensions/nbmonty/lib/jsonld.js/js/jsonld"
+      d3: "/nbextensions/nbmonty/bower_components/d3/d3.min",
+      jsonld: "/nbextensions/nbmonty/bower_components/jsonld.js/js/jsonld"
     },
     shim: {
       jsonld: {
